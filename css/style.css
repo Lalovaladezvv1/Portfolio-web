@@ -311,6 +311,12 @@ header {
     align-items: center;
 }
 
+.tabs .tab-header > div:hover {
+    color: var(--heading-color);
+    transition: 0.3s all linear;
+    
+}
+
 .tabs .tab-header > div {
     width: calc(100% / 3);
     text-align: center;
@@ -322,10 +328,6 @@ header {
     outline: none;
 }
 
-.tabs .tab-header > div:hover {
-    color: var(--heading-color);
-    transition: 0.3s all linear;
-}
 
 .tabs .tab-header > div.active {
     color: var(--main-color);
