@@ -498,6 +498,7 @@ header {
     .home {
         min-height: 500px;
         padding-top: 6rem;
+        max-width: 770;
     }
 
     .home-text h3 {
