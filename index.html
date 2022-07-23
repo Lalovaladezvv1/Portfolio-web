@@ -15,7 +15,10 @@
 
 </head>
 <body>
-
+    <!-- Scroll top -->
+    <a href="#home" class="scroll-top">
+        <i class='bx bx-up-arrow-alt'></i>
+    </a>
     <!-- Header -->
     <header>
         <!-- Nav -->
@@ -106,7 +109,43 @@
             </div>
         </div>
     </section>
+
+    <!-- Contact form -->
+    <section class="contact container" id="contact">
+        <!-- heading -->
+        <h2 class="heading">Contact</h2>
+        <!-- contact form-->
+        <form action="" class="contact-form" id="contact-form">
+            <input type="text" placeholder="Your name" class="name" required>
+            <input type="email" name="" placeholder="Email addres" class="email" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write message here..." class="message" required></textarea>
+            <input type="submit" value="send" class="send-btn">
+
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer container" id="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/eduardovaladezv"><i class='bx bxl-linkedin-square'  alt="LinkedIn"></i></a>
+            <a href="https://www.instagram.com/lalovaladez.99"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+        </div>
+        <!-- Copyright -->
+        <p>&#169; Eduardo Valadez</p>
+    </section>
+
     <!-- Link JS -->
     <script src="js/script.js"></script>
+    <!-- Email JS-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('FirdkIrXUER084fnZ');
+        })();
+    </script>
+
+    <!-- SweetAlert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
