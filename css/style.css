@@ -312,11 +312,12 @@ header {
     transform: translate(-50%,-50%);
     background: var(--bg-color);
     color: #222231;
-    width: 500px;
+    width: 390px;
     height: 450px;
     padding: 20px 30px;
     overflow: hidden;
     border-radius: 0.4rem;
+    max-width: 400px;
 }
 
 .tabs .tab-header {
@@ -498,9 +499,8 @@ header {
     .home {
         min-height: 500px;
         padding-top: 6rem;
-        max-width: 770;
+        
     }
-
     .home-text h3 {
         font-size: 1rem;
     }
