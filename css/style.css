@@ -312,7 +312,7 @@ header {
     background: var(--box-color);
     color: var(--bg-color);
     width: 390px;
-    height: 550px;
+    height: 600px;
     padding: 20px 30px;
     overflow: hidden;
     border-radius: 0.4rem;
@@ -384,6 +384,119 @@ header {
     transform: scale(1);
     margin-top: 0px;
 }
+
+
+/* Tab timeline */
+
+.timeline-container {
+    margin: 40px 40px;
+}
+.timeline-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.timeline-container ul:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 100%;
+    border: 1px dashed #aaa;
+}
+
+.timeline-container ul li {
+    margin: 40px 60px;
+    position: relative;
+    background: #222231;
+    width: 100%;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.timeline-container ul li:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -60px;
+    width: 0px;
+    height: 100%;
+    border: 1px solid #eee;
+}
+
+.timeline-container ul li > span {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -60px;
+    width: 0px;
+    height: 100%;
+    border: 1px solid #eee;
+}
+
+.timeline-container ul li > span:before, .timeline-container ul li > span:after {
+    content: '';
+    width:  10px;
+    height: 10px;
+    border: 2px solid #eee;
+    position: absolute;
+    border-radius: 50%;
+    left: -7px;
+    background: #546eff;
+}
+
+.timeline-container ul li span:before {
+    top: -10px;
+}
+.timeline-container ul li span::after {
+    top: 100%;
+}
+
+.timeline-container ul li .timeline-time span {
+    position: absolute;
+    font-size: 10px;
+    left: -132px;
+    width: 63px;
+    text-align: right;
+}
+
+.timeline-container ul li .timeline-time span:first-child {
+
+    top: -12px
+}
+
+.timeline-container ul li .timeline-time span:last-child {
+    top: 100%;
+}
+
+.timeline-container .timeline-title {
+    color: #546eff;
+    font-weight: 600;
+    tab-size: 12px;
+}
+
+.timeline-container .timeline-type {
+    font-size: 10px;
+    color: #aaa;
+}
+
+.timeline-container .timeline-info {
+    font-size: 12px;
+}
+
+.timeline-container .timeline-ubication {
+    color: #aaa;
+    font-size: 10.5px;
+}
+
+.timeline-container a {
+    color: #546eff;
+    font-size: 12px;
+}
+
 
 /* portfolio */
 .portfolio-content {
