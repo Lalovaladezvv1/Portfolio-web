@@ -302,6 +302,38 @@ header {
     background: #546eff;
     transition: 0.3s all linear;
 }
+/* Skills */
+#skills p{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#skills ul > li > ul >li {
+    font-size: 12px;
+    font-weight: normal;
+    color: #888;
+}
+
+#skills ul > li  {
+    font-size: 12px;
+    font-weight: 600;
+    color:#546eff
+}
+
+/* Education Tab*/
+
+
+#education ul > li > ul >li {
+    font-size: 15px;
+    font-weight: normal;
+    color: #888;
+}
+
+#education ul > li  {
+    font-size: 20px;
+    font-weight: 600;
+    color:#546eff
+}
 
 /* About tabbar */
 .tabs {
@@ -311,8 +343,8 @@ header {
     transform: translate(-50%,-50%);
     background: var(--box-color);
     color: var(--bg-color);
-    width: 390px;
-    height: 600px;
+    width: 375px;
+    height: 700px;
     padding: 20px 30px;
     overflow: hidden;
     border-radius: 0.4rem;
@@ -475,27 +507,30 @@ header {
 .timeline-container .timeline-title {
     color: #546eff;
     font-weight: 600;
-    tab-size: 12px;
+    font-size: 12px;
 }
 
 .timeline-container .timeline-type {
-    font-size: 10px;
+    font-size: 8.5px;
     color: #aaa;
 }
 
 .timeline-container .timeline-info {
-    font-size: 12px;
+    font-size: 10.5px;
 }
 
 .timeline-container .timeline-ubication {
     color: #aaa;
-    font-size: 10.5px;
+    font-size: 8.5px;
 }
 
 .timeline-container a {
     color: #546eff;
     font-size: 12px;
 }
+
+/* Skills */
+
 
 
 /* portfolio */
