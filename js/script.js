@@ -96,3 +96,11 @@ window.addEventListener('scroll', () => {
 });
 
 
+//button download
+const button = document.querySelector('.btn');
+
+button.addEventListener('click', () => {
+    console.log("clickk");
+    button.classList.add('active');
+});
+
