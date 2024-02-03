@@ -771,6 +771,16 @@ header {
     font-size: 0.9rem;
 }
 
+/* Project */
+.project{
+    text-align: center;
+}
+
+.project p{
+    text-align: center;
+}
+
+
 
 /* Scroll top */
 .scroll-top {
