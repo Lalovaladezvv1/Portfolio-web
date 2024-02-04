@@ -769,16 +769,87 @@ header {
 
 .footer p {
     font-size: 0.9rem;
+    text-align: justify;
 }
 
 /* Project */
-.project{
-    text-align: center;
+.project {
+    position: relative;
+    max-width: 950px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 6rem;
+}
+
+.project .wrapper {
+    width: 80%;
+    height: 40vh;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.65);
+    margin: 5rem auto;
+    overflow: hidden;
+}
+
+.project .wrapper-holder {
+    display: grid;
+    grid-template-columns: repeat(4, 100%);
+    height: 100%;
+    width: 100%;
+    animation: slider 30s ease-in-out infinite alternate;
+}
+
+.project .slider-img{
+    background-position: center;
+    background-color: #aaa;
+}
+
+.project .button-holder .button {
+    background-color:#888;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-inline: .3rem;
+}
+
+.project .button:hover{
+    background-color: #647bff;
+}
+
+@keyframes slider{
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-200%);}
+    40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-300%);}
+    70%{transform: translateX(-3000%);}
+    80%{transform: translateX(-300%);}
+    90%{transform: translateX(0%);}
+    100%{transform: translateX(0%);}
+}
+
+.project .button-holder {
+    position: absolute;
+    left: 45%;
+    bottom: 33%;
 }
 
 .project p{
-    text-align: center;
+    margin-top: 20px;
+    text-align:justify
 }
+
+
+.project h2{
+   color:#546eff
+}
+
 
 
 
