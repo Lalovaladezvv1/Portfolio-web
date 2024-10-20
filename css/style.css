@@ -471,8 +471,8 @@ header {
     transform: translate(-50%,-50%);
     background: var(--box-color);
     color: var(--bg-color);
-    width: 480px;
-    height: 810px;
+    width: 450px;
+    height: 620px;
     padding: 20px 30px;
     overflow: hidden;
     border-radius: 0.4rem;
