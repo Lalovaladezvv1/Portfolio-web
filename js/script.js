@@ -16,7 +16,7 @@ tabsPane[i].addEventListener("click", function(){
     tabBody.getElementsByClassName("active")[0].classList.remove("active");
     tabBody.getElementsByTagName("div")[i].classList.add("active");
 
-    tabIndicator.style.left = `calc(calc(100% / 3) * ${i}`
+    tabIndicator.style.left = `calc(calc(100% / 2) * ${i}`
 });
 }
 

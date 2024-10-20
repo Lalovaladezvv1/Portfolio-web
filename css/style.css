@@ -432,18 +432,18 @@ header {
 
 /* Skills */
 #skills p{
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
 }
 
 #skills ul > li > ul >li {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: normal;
     color: #888;
 }
 
 #skills ul > li  {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     color:#546eff
 }
@@ -479,7 +479,7 @@ header {
 }
 
 .tabs .tab-header {
-    height: 60px;
+    height: 40px;
     display: flex;
     align-items: center;
 }
@@ -491,7 +491,7 @@ header {
 }
 
 .tabs .tab-header > div {
-    width: calc(100% / 3);
+    width: calc(100% / 2);
     text-align: center;
     color: #888;
     font-weight: 600;
@@ -508,13 +508,13 @@ header {
 
 .tabs .tab-header > div > i {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     font-size: 1.25rem;
 }
 
 .tabs .tab-indicator {
     position: relative;
-    width: calc(100% / 3);
+    width: calc(100% / 2);
     height: 5px;
     background: var(--main-color);
     left: 0;
@@ -659,6 +659,13 @@ header {
 
 /* Skills */
 
+/* Education */
+
+#education {
+    color: #fff;
+}
+
+#educat
 
 
 /* portfolio */
