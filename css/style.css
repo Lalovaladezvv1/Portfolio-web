@@ -220,6 +220,7 @@ header {
 }
 
 .home-text p {
+    text-align: justify;
     font-size: 0.938rem;
     margin-bottom: 1.5rem;
 }
@@ -280,6 +281,7 @@ header {
 .about-text p {
     font-size: 1.5rem;
     margin-top: 2rem;
+    text-align: justify;
 }
 
 .btn {
@@ -959,6 +961,10 @@ header {
         transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
     }
 
+    .btn{
+        width: 385px;
+    }
+
     .nav-link {
         display: block;
         margin: 1rem 0;
@@ -975,19 +981,28 @@ header {
     }
 
     .about-data h2 {
+        width: 385px;
         font-size: 1.7rem;
         line-height: 2.3rem;
         font-weight: 400;
         margin: 0.8rem 0;
+ 
     }
 
     .about-text p {
+        width: 385px;
         font-size: 0.825rem;
         margin-top: 1.3rem;
+        text-align: justify;
     }
 
     .projects-content {
         grid-template-columns: repeat(2,200px);
+    }
+
+    .tabs{
+        background-color: red;
+        width: 385px;
     }
 }
 
