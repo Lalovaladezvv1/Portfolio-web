@@ -962,7 +962,7 @@ header {
     }
 
     .btn{
-        width: 385px;
+        width: 330px;
     }
 
     .nav-link {
@@ -981,7 +981,7 @@ header {
     }
 
     .about-data h2 {
-        width: 385px;
+        width: 330px;
         font-size: 1.7rem;
         line-height: 2.3rem;
         font-weight: 400;
@@ -990,7 +990,7 @@ header {
     }
 
     .about-text p {
-        width: 385px;
+        width: 330px;
         font-size: 0.825rem;
         margin-top: 1.3rem;
         text-align: justify;
