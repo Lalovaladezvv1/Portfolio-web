@@ -1001,14 +1001,13 @@ header {
     }
 
     .tabs{
-        background-color: red;
-        width: 385px;
+        width: 330px;
     }
 }
 
 @media (max-width: 450px)  {
     .home {
-        min-height: 485px;
+        min-height: 330px;
         padding-top: 5rem;
     }
 
