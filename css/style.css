@@ -1099,7 +1099,7 @@ header {
     }
 
     .btn{
-        width: 342px;
+        width: 346px;
     }
 
     .nav-link {
@@ -1161,7 +1161,6 @@ header {
     }
 
 
-
     .timeline-cv .right-container {
         left: 30px;
     }
@@ -1184,6 +1183,12 @@ header {
         left: -15px;
         border-left: 0;
      }
+
+     .container-timeline .text-box{
+        font-size: 13px;
+        width: 300%;
+        padding: 5px;  
+    }
 
     
 }

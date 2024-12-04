@@ -104,3 +104,19 @@ button.addEventListener('click', () => {
     button.classList.add('active');
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const timeline = document.querySelector('.timeline-cv');
+
+    // Crear Intersection Observer
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                timeline.classList.add('animate'); 
+                observer.unobserve(entry.target); 
+            }
+        });
+    });
+
+
+    observer.observe(timeline);
+});
