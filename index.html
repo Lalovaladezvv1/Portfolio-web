@@ -264,6 +264,8 @@
       <!-- heading -->
       <h2 class="heading">Portafolio</h2>
       <div class="portfolio-content">
+        <center><h2>Sección en construcción...</h2></center>
+        <div id="lottie-container"></div>
       </div>
     </section>
 
@@ -310,6 +312,7 @@
     </section>
 
     <!-- Link JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
     <script src="js/script.js"></script>
     <!-- Email JS-->
     <script
@@ -321,6 +324,18 @@
         emailjs.init("FirdkIrXUER084fnZ");
       })();
     </script>
+
+    <script>
+      // Configura la animación
+      var animation = lottie.loadAnimation({
+        container: document.getElementById('lottie-container'),
+        renderer: 'svg',  
+        loop: true,          
+        autoplay: true,         
+        path: 'assets/animations/dev_anim.json' 
+      });
+    </script>
+
 
     <!-- SweetAlert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
