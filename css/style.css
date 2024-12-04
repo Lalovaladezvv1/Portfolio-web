@@ -794,6 +794,10 @@ header {
     font-size: 15px;
  }
 
+ .timeline-cv p{
+    color: #e4e4e4;
+ }
+
  .timeline-cv .left-container {
     left: 0;
  }
@@ -1095,7 +1099,7 @@ header {
     }
 
     .btn{
-        width: 330px;
+        width: 342px;
     }
 
     .nav-link {
@@ -1150,12 +1154,6 @@ header {
 
     .container-timeline {
         max-width: 100%;
-    }
-
-    .container-timeline .text-box{
-        font-size: 13px;
-        width: 300%;
-        padding: 5px;  
     }
 
     .container-timeline .text-box small{
