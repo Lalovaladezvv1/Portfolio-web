@@ -432,6 +432,7 @@ header {
 
 
 
+
 /* Skills */
 #skills p{
     font-size: 15px;
@@ -547,6 +548,45 @@ header {
     margin-top: 0px;
 }
 
+/* achievements */
+
+.achievements-container{
+    justify-items: center;
+}
+
+.achievements-container h2{
+    color:#546eff;
+    padding-top: 30px;
+}
+
+.achievements-container h4{
+    color:#aaa;
+}
+
+.achievements-container p{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.achievements-container .imagenes{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.achievements-container .imagenes{
+
+}
+
+.achievements-container .horizontal {
+    width: 62%;
+}
+
+.achievements-container .vertical {
+    width: 30%;
+}
 
 /* Tab timeline */
 
@@ -729,6 +769,35 @@ header {
     transition: 0.3s all ease ;
 }
 
+.portfolio-content {
+    justify-items: center;
+}
+
+.portfolio-content h2{
+    padding: 20px;
+    color: #546eff;
+}
+
+.portfolio-content a{
+    padding: 5px;
+    color:#ddd;
+}
+
+.paginas-web {
+    display: flex; 
+    gap: 20px; 
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .items-web {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para resaltar */
+  }
+
 
 /* Cv timeline */
 
@@ -888,7 +957,7 @@ header {
 }
 
 .contact-form .send-btn {
-    width: 120px;
+    width: 100%;
     font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 500;
